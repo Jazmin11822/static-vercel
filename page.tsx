@@ -4,9 +4,9 @@ import { Phone } from "lucide-react"
 
 export default function Home() {
   // Replace with your WhatsApp number and message
-  const phoneNumber = "1234567890"
-  const message = "Hello, I'm interested in your services!"
-  const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
+  const phoneNumber = "+5491164816092"
+  const message = "Hola, quiero un usuario!"
+  const whatsappLink = `https://wa.me/${+5491164816092}?text=${encodeURIComponent(message)}`
 
   return (
     <main className="relative flex min-h-screen flex-col items-center justify-center p-4 text-center">
@@ -19,7 +19,7 @@ export default function Home() {
       {/* Content */}
       <div className="max-w-3xl space-y-8 text-white">
         {/* Main Heading */}
-        <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl">Welcome to Our Website</h1>
+        <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl">BIUENVENIDO A GANAMOS</h1>
 
         {/* Subheading */}
         <p className="text-xl md:text-2xl">We provide amazing services that will help you achieve your goals.</p>
